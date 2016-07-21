@@ -1,0 +1,142 @@
+body {
+  margin-top: 20px;
+  padding-bottom: 20px;
+  font-family: 'Lato', Georgia, serif;
+}
+
+.wrapper {
+  margin: auto;
+  width: 360px;
+  height: 460px;
+ 
+}
+
+.header {
+  position: relative;
+  width: 340px;
+  height: 40px;
+  padding-left: 10px;
+  padding-right: 10px;
+  clear: left;
+  padding-bottom: px;
+  padding-top: 2px;
+
+}
+
+.title {
+  position: relative;
+  width: 365px;
+  height: 50px;
+  padding-left: 10px;
+  padding-bottom: 2px;
+  padding-top: 1px;
+}
+
+.titleText {
+  font-family: 'Nova Square', serif;
+  font-size: 1.3em;
+  font-weight: 700;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  color: #800000;
+}
+
+.cell {
+  width: 120px;
+  height: 120px;
+  outline: 0px solid;
+  float: left;
+  border-color: #DDD;
+   cursor: pointer;
+}
+
+canvas {
+  position: absolute;
+  z-index: -1;
+  width: 370px;
+  height: 370px;
+}
+
+.leftright {
+  border-right: 1px solid;
+}
+
+.selected {
+  border-bottom: 2px solid;
+
+   margin-right: 4px;
+   cursor: pointer;
+}
+
+.unselected {
+  background-color: white;
+  color: black;
+
+   margin-right: 4px;
+   cursor: pointer;
+}
+
+.chooseSide {
+  position: relative;
+  float: right;
+  margin-right: 5px;
+}
+
+.bordo {
+  color: #800000;
+  font-weight: 700;
+   cursor: pointer;
+}
+
+.blue {
+  color: #0059b3;
+  font-weight: 700;
+}
+
+.button {
+  position: relative;
+  top: 0%;
+  left: 20%;
+  /* bring your own prefixes */
+  margin: auto;
+  background-color: white;
+  color: black;
+  border: 2px solid #0059b3;
+  font-size: 14px;
+  padding: 4px 8px;
+  -webkit-transition-duration: 0.4s;
+  /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.button:hover {
+  border: 2px solid #800000;
+}
+
+.restartbtn {
+  font-family: 'Nova Square', serif;
+  position: relative;
+  top: 0%;
+  left: 20%;
+  cursor: pointer;
+  color: #0059b3;
+  font-weight: 700;
+}
+.copyright
+{
+   font-family: 'Nova Square', serif;
+  position: relative;
+  top: 20%;
+  left: 23%;
+  font-size:0.8em;
+  color: #0059b3;
+  /* bring your own prefixes */
+
+
+}

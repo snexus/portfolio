@@ -1,0 +1,46 @@
+<html>
+<head>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+  <script src="script.js"></script>
+<title>
+A Javascript Calculator
+</title>
+</head>
+<body>
+<link href='https://fonts.googleapis.com/css?family=Audiowide' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Exo' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Cousine' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.1/animate.min.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+
+<div class="header">
+  <span class="centeredText" id="reset">
+        <h2>RESET</h2>
+      </span>
+</div>
+
+<div class="center noselect">
+
+  <div class="letters breakLetters noselect">
+    <div class="centeredText centeredTop" id="increaseBreakLength">+</div>
+    <div class="centeredText centeredCenter" id="breakLength">02</div>
+    <div class="centeredText centeredBottom" id="decreaseBreakLength">-</div>
+  </div>
+  <div class="letters sessionLetters noselect">
+    <div class="centeredText centeredTop" id="increaseSessionLength">+</div>
+    <div class="centeredText centeredCenter" id="sessionLength">03</div>
+    <div class="centeredText centeredBottom" id="decreaseSessionLength">-</div>
+  </div>
+  <div class="sessionCaption"> Session</div>
+    <div class="miniHeading"> Click on clock to start</div>
+  <div class="breakCaption"> Break</div>
+  <div class="clock noselect animated flipInX" id="clock"></div>
+  <div class="currentMode"> Session</div>
+  <div class="indicator narrow" id="indic"></div>
+</div>
+<div class="footer">
+  <h4>(C) 2016 by snexus</h4>
+</div>
+
+</body>
+</html>

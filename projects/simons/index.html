@@ -1,0 +1,72 @@
+<html>
+
+<head>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+ <script src="script.js"></script>
+ <title>
+  Simon's Game
+ </title>
+</head>
+
+<body>
+ <link href='https://fonts.googleapis.com/css?family=Exo' rel='stylesheet' type='text/css'>
+ <link href='https://fonts.googleapis.com/css?family=Audiowide' rel='stylesheet' type='text/css'>
+ <div class="centerBox">
+  <link href='https://fonts.googleapis.com/css?family=Cousine' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+
+  <div class="heading">
+   <svg id="myShape" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="400" width="450">
+      <defs>
+      <path id="textPath" d="M60,125 A220,220 0 0 1 405,160"/>
+    </defs>
+    <text fill="#800000" stroke="#000000" >
+      <textPath xlink:href="#textPath"> THE SIMON GAME</textPath>
+    </text>
+    </svg>
+  </div>
+  <div class="bigCircle">
+   <div class="switch1">
+    <div class="toggle">
+     <input type="checkbox" name="toggleSwitch" id="toggleSwitch" />
+     <label for="toggleSwitch"></label>
+    </div>
+   </div>
+   <div class="button buttonRed"></div>
+   <div class="button buttonGreen"></div>
+   <div class="button buttonBlue"></div>
+   <div class="countIndic">
+    <div class="countLetters center"></div>
+    <div class="indicCaption captionCount">Count</div>
+   </div>
+   <div class="indic indicStart" id="startButton">
+    <div class="indicCaption captionOn">Start</div>
+
+   </div>
+   <div class="indic indicStrict" id="strictButton">
+    <div class="indicCaption captionStrict">Strict</div>
+    <div class="confirmLight center"></div>
+   </div>
+
+   <div class="button buttonYellow"></div>
+   <div class="verticalBar"></div>
+   <div class="horizontalBar"></div>
+   <div class="smallCircle"></div>
+   <div class="footer">
+    (C) 2016 by snexus
+   </div>
+  </div>
+
+ </div>
+ <audio id="audioYellow"> 
+  <source src="https://s3.amazonaws.com/freecodecamp/simonSound1.mp3" type="audio/mpeg">
+</audio>
+ <audio id="audioRed"> 
+  <source src="https://s3.amazonaws.com/freecodecamp/simonSound2.mp3" type="audio/mpeg">
+</audio>
+ <audio id="audioGreen"> 
+  <source src="https://s3.amazonaws.com/freecodecamp/simonSound3.mp3" type="audio/mpeg">
+</audio>
+ <audio id="audioBlue"> 
+  <source src="https://s3.amazonaws.com/freecodecamp/simonSound4.mp3" type="audio/mpeg">
+</audio>
